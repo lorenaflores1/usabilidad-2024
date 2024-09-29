@@ -1,0 +1,155 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	
+
+	
+}
+
+/* Estilos del menú */
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #00ff2f;
+    padding-top: 20px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+
+.menu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: #730099;
+}
+
+/* Estilos del contenido */
+.content {
+    margin-left: 200px; /* Ancho del menú */
+    padding: 20px;
+}
+.flores {
+      border: lpx solid #666000;
+	  margin: 1em;
+	  padding: 2em;
+	  height: 4em;
+	  width: 20%;
+	  float:left;
+	  }
+	  
+body{
+   Margin: auto;
+   width:90%;
+   font-family: Arial;
+   background-color:#CCEFFF;
+   background-image:url"jardineria.jpg";
+   }
+
+
+
+
+
+header{
+    width: 95%;
+	background-color:#C2EFFD;
+}
+   
+    form {
+
+        background-color: #d11b1b;
+    
+        padding: 20px;
+    
+        border-radius: 10px;
+    
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+        max-width: 400px;
+    
+        width: 100%; 
+    
+        margin: 20px auto; 
+    
+    }
+    
+    
+    label {
+    
+        display: block;
+    
+        margin-bottom: 8px;
+    
+        color: #555;
+    
+    }
+    
+    
+    
+    input, textarea {
+    
+        width: 90%;
+    
+        padding: 10px;
+    
+        margin-bottom: 15px;
+    
+        border: 1px solid #ccc;
+    
+        border-radius: 5px;
+    
+    }
+    
+    
+    
+    input[type="number"], input[type="text"], input[type="email"] {
+    
+        background-color: #f9f9f9;
+    
+    }
+    
+    
+    
+    button {
+    
+        width: 100%;
+    
+        padding: 10px;
+    
+        background-color: #5cb85c;
+    
+        border: none;
+    
+        color: white;
+    
+        border-radius: 5px;
+    
+        cursor: pointer;
+    
+        font-size: 16px;
+    
+    }
+    
+    
+    
+    button:hover {
+    
+        background-color: #4cae4c;
+    
+    }
+    
